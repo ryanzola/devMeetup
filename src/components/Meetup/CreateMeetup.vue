@@ -109,7 +109,7 @@ export default {
         this.description !== ''
     },
     submittableDateTime () {
-      const date = new Date(this.date)
+      const date = new Date()
 
       if (this.time !== null) {
         const hours = this.time.getHours
