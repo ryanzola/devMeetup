@@ -11,9 +11,11 @@
                     height="130px"
                   ></v-card-media>
                   <v-card-title>
-                      <div class="info--text">{{meetup.date}} - Where it takes place</div>
-                      <div>{{meetup.description}}</div>
+                      <div class="info--text">{{meetup.date | date}} - {{meetup.location}}</div>
                   </v-card-title>
+                  <v-card-text>
+                      <div>{{meetup.description}}</div>
+                  </v-card-text>
                   <v-card-actions>
                       <v-spacer></v-spacer>
                       <v-btn dark class="red darken-4">Register</v-btn>
