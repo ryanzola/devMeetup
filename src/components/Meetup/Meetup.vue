@@ -18,7 +18,7 @@
                   </v-card-text>
                   <v-card-actions>
                       <v-spacer></v-spacer>
-                      <v-btn dark class="red darken-4">Register</v-btn>
+                      <v-btn dark class="blue darken-4">Register</v-btn>
                   </v-card-actions>
               </v-card>
           </v-flex>

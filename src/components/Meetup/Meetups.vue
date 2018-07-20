@@ -2,7 +2,7 @@
   <v-container>
     <v-layout row wrap v-for="meetup in meetups" :key="meetup.id" class="mb-2">
       <v-flex xs-12 sm10 md8 offset-sm1 offset-md2>
-        <v-card dark  class="red darken-4">
+        <v-card dark  class="blue darken-4">
           <v-container fluid>
             <v-layout row>
               <v-flex xs5 sm4 md3>

@@ -76,7 +76,7 @@
             <v-flex xs-12 sm-6 offset-sm3>
               <v-spacer></v-spacer>
               <v-btn dark 
-                class="red darken-4" 
+                class="blue darken-4" 
                 :disabled="!formIsValid"
                 type="submit">Create Meetup</v-btn>
             </v-flex> 
